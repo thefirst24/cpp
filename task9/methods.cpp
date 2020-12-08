@@ -1,4 +1,6 @@
-﻿#include "classes.h"
+﻿#include "Maze.h"
+#include "MCell.h"
+#include "MTreeNode.h"
 #include <iostream>
 
 using namespace std;

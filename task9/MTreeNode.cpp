@@ -44,3 +44,15 @@ int MTreeNode::childCount() const {
 	}
 	return count;
 }
+
+const MTreeNode* MTreeNode::parent() const { return m_parent; }
+
+const MTreeNode* MTreeNode::child(int i) const { return m_children[i]; }
+
+int  MTreeNode::distance() const { return m_distance; }
+
+int MTreeNode::i() const { return m_i; }
+
+int MTreeNode::j() const { return m_j; }
+
+MTreeNode::MTreeNode(MTreeNode* parent) { m_parent = parent; }
